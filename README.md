@@ -4,17 +4,17 @@ A modern React-based web application for searching and finding people with detai
 
 ## Features
 
-- Advanced Search: Search users by name, location, or other criteria
+- Advanced Search: Search users by name
 - User Cards: Clean, responsive card layout displaying user information
 - User Details Modal: Detailed view of user information with contact details
 - Responsive Design: Optimized for desktop, tablet, and mobile devices
-- Modern UI: Clean interface with smooth animations and hover effects
+- Modern UI: Clean interface with hover effects
 
 ## Tech Stack
 
 - Frontend: React 18, React Router DOM
 - Styling: CSS3 with modern flexbox and grid layouts
-- Icons: SVG icons for location and contact information
+- Icons: SVG icons for User
 - Build Tool: Create React App
 - Version Control: Git with GitHub
 
@@ -86,58 +86,26 @@ npm run build
 - main - Production-ready code
 - develop - Integration branch for features
 - feature/ - Feature development branches
-- hotfix/ - Critical bug fixes
-- release/ - Release preparation branches
+- 
 
 ### Branching Workflow
 
 1. Feature Development
-   bash
-   git checkout develop
-   git pull origin develop
-   git checkout -b feature/search-functionality
+   git checkout main
+   git pull origin main
+   git checkout -b feature/search-functionalinality
    # Make changes
    git add .
    git commit -m "feat: add advanced search functionality"
    git push origin feature/search-functionality
    
-
 2. Create Pull Request
-   - Open PR from feature branch to develop
+   - Open PR from feature branch to main
    - Add descriptive title and description
    - Request code review
    - Merge after approval
 
-3. Release Process
-   bash
-   git checkout develop
-   git pull origin develop
-   git checkout -b release/v1.0.0
-   # Final testing and bug fixes
-   git checkout main
-   git merge release/v1.0.0
-   git tag v1.0.0
-   git push origin main --tags
-   
-
-### Commit Conventions
-
-We follow conventional commits for clear commit history:
-
-- feat: - New features
-- fix: - Bug fixes
-- docs: - Documentation changes
-- style: - Code style changes (formatting, etc.)
-- refactor: - Code refactoring
-- test: - Adding or updating tests
-- chore: - Maintenance tasks
-
-
-
-
 ## 📁 Project Structure
-
-
 find-people/
 ├── public/
 │   ├── img/
@@ -168,31 +136,9 @@ find-people/
 ├── package.json
 └── README.md
 
-
-## 🔧 Development Guidelines
-
-### Code Style
-- Use functional components with hooks
-- Follow React best practices
-- Maintain consistent indentation (2 spaces)
-- Use meaningful variable and function names
-- Add comments for complex logic
-
-### Testing
-- Write unit tests for components
-- Test user interactions
-- Ensure responsive design works across devices
-
-### Performance
-- Optimize images and assets
-- Use React.memo for expensive components
-- Implement lazy loading where appropriate
-
 ## 🤝 Contributing
-
 1. Fork the repository
 2. Create your feature branch (git checkout -b feature/amazing-feature)
 3. Commit your changes (git commit -m 'feat: add amazing feature')
 4. Push to the branch (git push origin feature/amazing-feature)
 5. Open a Pull Request
-
