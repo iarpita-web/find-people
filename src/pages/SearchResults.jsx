@@ -66,20 +66,21 @@ const SearchResults = () => {
       
       <div className="search-header">
         <div className="search-header-content">
-          <div className="search-logo">
-            <img src="/logo192.png" alt="Girman" className="header-logo" />
-            <span className="header-title">Girman</span>
-          </div>
-          <div className="search-box-wrapper">
+          {/* <div className="search-logo">
+           
+      </div>
+       */}
+        </div>
+      </div>
+
+      <main className="search-main">
+         <div className="search-box-wrapper">
             <SearchBox 
               onSearch={handleSearch}
               placeholder="Search for users..."
             />
           </div>
-        </div>
-      </div>
-
-      <main className="search-main">
+       
         <div className="search-container">
           {searchTerm && (
             <div className="search-info">
