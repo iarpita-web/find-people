@@ -4,19 +4,19 @@ A modern React-based web application for searching and finding people with detai
 
 ## Features
 
-- *Advanced Search*: Search users by name, location, or other criteria
-- *User Cards*: Clean, responsive card layout displaying user information
-- *User Details Modal*: Detailed view of user information with contact details
-- *Responsive Design*: Optimized for desktop, tablet, and mobile devices
-- *Modern UI*: Clean interface with smooth animations and hover effects
+- Advanced Search: Search users by name, location, or other criteria
+- User Cards: Clean, responsive card layout displaying user information
+- User Details Modal: Detailed view of user information with contact details
+- Responsive Design: Optimized for desktop, tablet, and mobile devices
+- Modern UI: Clean interface with smooth animations and hover effects
 
 ## Tech Stack
 
-- *Frontend*: React 18, React Router DOM
-- *Styling*: CSS3 with modern flexbox and grid layouts
-- *Icons*: SVG icons for location and contact information
-- *Build Tool*: Create React App
-- *Version Control*: Git with GitHub
+- Frontend: React 18, React Router DOM
+- Styling: CSS3 with modern flexbox and grid layouts
+- Icons: SVG icons for location and contact information
+- Build Tool: Create React App
+- Version Control: Git with GitHub
 
 ## Installation & Setup
 
@@ -27,23 +27,23 @@ A modern React-based web application for searching and finding people with detai
 
 ### Local Development Setup
 
-1. *Clone the repository*
+1. Clone the repository
    bash
    git clone https://github.com/iarpita-web/find-people.git
    cd find-people
    
 
-2. *Install dependencies*
+2. Install dependencies
    bash
    npm install
    
 
-3. *Start the development server*
+3. Start the development server
    bash
    npm start
    
 
-4. *Open your browser*
+4. Open your browser
    Navigate to http://localhost:3000 to view the application
 
 ### Available Scripts
@@ -62,18 +62,18 @@ npm run build
 
 ### Deployment Options
 
-1. *Netlify* (Recommended)
+1. Netlify
    - Connect your GitHub repository to Netlify
    - Set build command: npm run build
    - Set publish directory: build
    - Auto-deploy on push to main branch
 
-2. *Vercel*
+2. Vercel
    - Import project from GitHub
    - Vercel automatically detects React app settings
    - Deploy with zero configuration
 
-3. *GitHub Pages*
+3. GitHub Pages
    bash
    npm install --save-dev gh-pages
    npm run build
@@ -85,13 +85,13 @@ npm run build
 ### Branch Structure
 - main - Production-ready code
 - develop - Integration branch for features
-- feature/* - Feature development branches
-- hotfix/* - Critical bug fixes
-- release/* - Release preparation branches
+- feature/ - Feature development branches
+- hotfix/ - Critical bug fixes
+- release/ - Release preparation branches
 
 ### Branching Workflow
 
-1. *Feature Development*
+1. Feature Development
    bash
    git checkout develop
    git pull origin develop
@@ -102,13 +102,13 @@ npm run build
    git push origin feature/search-functionality
    
 
-2. *Create Pull Request*
+2. Create Pull Request
    - Open PR from feature branch to develop
    - Add descriptive title and description
    - Request code review
    - Merge after approval
 
-3. *Release Process*
+3. Release Process
    bash
    git checkout develop
    git pull origin develop
@@ -132,11 +132,7 @@ We follow conventional commits for clear commit history:
 - test: - Adding or updating tests
 - chore: - Maintenance tasks
 
-*Examples:*
-bash
-git commit -m "feat: add user search functionality"
-git commit -m "fix: resolve mobile responsive issues"
-git commit -m "docs: update README with deployment instructions"
+
 
 
 ## 📁 Project Structure
@@ -173,30 +169,6 @@ find-people/
 └── README.md
 
 
-## 🎯 Assignment Requirements
-
-### Core Features Implemented
-- ✅ User search functionality
-- ✅ Responsive user card layout
-- ✅ User details modal
-- ✅ Mobile-responsive design
-- ✅ Clean, modern UI
-
-### Technical Requirements Met
-- ✅ React functional components with hooks
-- ✅ React Router for navigation
-- ✅ Component-based architecture
-- ✅ CSS modules for styling
-- ✅ Git version control with proper branching
-- ✅ Responsive design principles
-
-### Development Best Practices
-- ✅ Clean, readable code structure
-- ✅ Proper component separation
-- ✅ Consistent naming conventions
-- ✅ Git commit message standards
-- ✅ Documentation and README
-
 ## 🔧 Development Guidelines
 
 ### Code Style
@@ -224,20 +196,3 @@ find-people/
 4. Push to the branch (git push origin feature/amazing-feature)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is created for educational purposes as part of an assignment.
-
-## 👥 Team
-
-- *Developer*: [Your Name]
-- *Assignment*: React User Search Application
-- *Institution*: [Your Institution]
-
-## 📞 Support
-
-For any questions or issues, please create an issue in the GitHub repository or contact the development team.
-
----
-
-*Note*: This application is developed as part of an academic assignment to demonstrate React development skills, git workflow management, and modern web development practices.
