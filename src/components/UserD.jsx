@@ -16,7 +16,7 @@ const UserD = ({ user, isOpen, onClose }) => {
             <div className="user-profile">
               <div className="profile-image">
                 <img 
-                  src="/logo192.png" 
+                  src="/img/userImg.png" 
                   alt={`${user.first_name} ${user.last_name}`}
                   className="profile-avatar"
                 />
